@@ -1,9 +1,0 @@
----
-deployment:
-  task:
-    - export DEPLOYPATH=/home/83f7c2c9b189a098/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp .htaccess $DEPLOYPATH
-    - /bin/cp -R application $DEPLOYPATH
-    - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R system $DEPLOYPATH
