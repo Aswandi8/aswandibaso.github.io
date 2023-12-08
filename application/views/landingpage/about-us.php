@@ -14,6 +14,20 @@
     </section>
     <!-- End Contact Section -->
 
+    <!-- ======= Contact Section ======= -->
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="h6-title"><?= strtoupper($title); ?></h1>
+                <ol class="h6-title-small">
+                    <li><a href="<?= base_url('id/home'); ?>" class="h6-title-small">Home</a></li>
+                    <li class="h6-title-small"><?= strtoupper($title); ?></li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
     <!-- ======= banner Section ======= -->
     <section class="why-us " data-aos="fade-up" date-aos-delay="200">
         <div class="container">
